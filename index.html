@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--FAV-ICON-->
+  <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+
+  <!--Remix-ICON-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--Tailwind CSS-->
+  <link rel="stylesheet" href="./output.css"/>
+  <link href="./output.css" rel="stylesheet">
+  <title>MTalk || MediaTalk</title>
+
+</head>
+<body>
+   <!--Header-->
+    <header id="navbar" class="fixed top-0 left-0 z-50 w-full bg-green-950">
+        <nav class="container flex items-center justify-between h-16 sm:h-20">
+            <div class="font-Lobster sm:text-2xl">IndorePlants</div>
+       
+            <!-- Hamburger Icon -->
+            <div class="z-50 text-xl sm:text-3xl lg:hidden">
+                <i class="ri-menu-4-fill" id="hamburger"></i>
+            </div>
+        </nav>
+
+        <!-- Navigation Menu -->
+        <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-green-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
+            <ul class="flex flex-col items-center gap-8 lg:flex-row">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#popular" class="nav-link">Popular</a></li>
+                <li><a href="#review" class="nav-link">Review</a></li>
+            </ul>  
+
+            <!-- Decorative Images -->
+               <div class="absolute bottom-0 -right-10 opacity-90 lg:hidden">
+                   <img src="assets/img/leaf-1.png" alt="leaf_image" class="w-32"/>
+                </div>
+               <div class="absolute rotate-90 -top-5 left-5 opacity-90 lg:hidden">
+                  <img src="assets/img/leaf-2.png" alt="leaf_image" class="w-32"/>
+               </div>
+           </div>
+    </header>
+
+    <main>
+         <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
+        <section id="home">
+            <br>
+            <br> 
+          <div class="container">
+            <div class="flex flex-col items-center gap-5 lg:flex-row"> 
+                <!-- content -->
+                <div class="w-full space-y-5 lg:w-1/2">
+                    <h1>
+                        <span class="text-yellow-500">Plants</span>make a 
+                        <br> 
+                        Positive 
+                        <span class="text-yellow-500">impact</span>on <br>
+                        your environment
+                    </h1>
+
+                    <p class="text-slate-300 font-Lobster">
+                      Lorem ipsum hello how you are doing and 
+                      hiod djkwed  jkcdjck jkcbdsc jdbc  jkcnsdc 
+                      djddd  jdjd ejjwd ededjed kjewded  kebddedkjnwe
+                    </p>
+
+                    <div class="flex flex-col gap-2 sm:flex-row">
+                      <button class="btn">
+                          <span>Shop Now</span> 
+                          <i class="ri-leaf-line"></i>
+                      </button>
+
+                      <button class="btn btn_outline">
+                         <span>Know More</span>
+                         <i class="ri-leaf-line"></i>
+                      </button>
+                    </div>
+
+                    <p class="text-xs font-Lobster text-slate-300">
+                         You will get 30-days free trial.
+                    </p>
+
+                    <div class="flex items-center gap-5 text-lg lg:pt-10">
+                        <i class="text-base duration-300 cursor-pointer ri-facebook-fill text-slate-300 hover:text-yellow-500"></i>
+                        <i class="text-base duration-300 cursor-pointer ri-twitter-x-line text-slate-300 hover:text-yellow-500"></i>
+                        <i class="text-base duration-300 cursor-pointer ri-instagram-line text-slate-300 hover:text-yellow-500"></i>
+                        <i class="text-base duration-300 cursor-pointer ri-linkedin-fill text-slate-300 hover:text-yellow-500"></i>
+                    </div>
+
+
+                </div>
+
+          <div class="relative w-full space-y-5 lg:w-1/2">
+    <img src="assets/img/home.png" alt="home_image" class="relative z-10"/>
+
+    <!--leaf--> 
+    <div class="absolute bottom-10 -right-10 opacity-30 animate-movingY">
+        <i class="text-6xl text-yellow-500 ri-leaf-line "></i>
+    </div>
+
+    <!--flower--> 
+    <div class="absolute top-20 right-12 opacity-30 animate-movingY">
+        <i class="text-6xl text-yellow-500 ri-flower-line"></i>
+    </div>
+
+    <!--plant--> 
+    <div class="absolute left-0 bottom-12 opacity-30 animate-movingY">
+        <i class="text-6xl text-yellow-500 ri-plant-line"></i>
+    </div>
+</div>
+  </div>
+    </div>
+        </section>
+         <!--~~~~~~~~~~~~~~~ Service Section ~~~~~~~~~~~~~~~-->
+           <div class="py-20 text-green-900 bg-white">
+               <div class="container grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <!--card 1-->
+                <div class="p-5 space-y-5 duration-300 border-green-900 rounded-md cursor-pointer hover:shadow-2xl hover:-translate-y-1">
+                    <div class="flex items-center gap-5">
+                        <i class="text-3xl ri-truck-line md:text-4xl xl:text-5xl"></i>
+                        <p class="font-bold md:text-lg">
+                            Fast <br>
+                            Delivery
+                        </p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolar sit amet conector adpisiting edits.
+                        Valit, Facers debits omiydeyd    
+                    </P>
+                </div>
+                 <!--card 2-->
+                 <div class="duration-300 border-green-900 rounded-md cursor-pointer pspace-y-5 -5 hover:shadow-2xl hover:-translate-y-1">
+                    <div class="flex items-center gap-5">
+                        <i class="text-3xl ri-truck-line md:text-4xl xl:text-5xl"></i>
+                        <p class="font-bold md:text-lg">
+                            Fast <br>
+                            Delivery
+                        </p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolar sit amet conector adpisiting edits.
+                        Valit, Facers debits omiydeyd    
+                    </P>
+                </div>
+                 <!--card 3-->
+                 <div class="p-5 space-y-5 duration-300 border-green-900 rounded-md cursor-pointer hover:shadow-2xl hover:-translate-y-1">
+                    <div class="flex items-center gap-5">
+                        <i class="text-3xl ri-truck-line md:text-4xl xl:text-5xl"></i>
+                        <p class="font-bold md:text-lg">
+                            Fast <br>
+                            Delivery
+                        </p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolar sit amet conector adpisiting edits.
+                        Valit, Facers debits omiydeyd    
+                    </P>
+                </div>
+                 <!--card 4-->
+                 <div class="p-5 space-y-5 duration-300 border-green-900 rounded-md cursor-pointer hover:shadow-2xl hover:-translate-y-1">
+                    <div class="flex items-center gap-5">
+                        <i class="text-3xl ri-truck-line md:text-4xl xl:text-5xl"></i>
+                        <p class="font-bold md:text-lg">
+                            Fast <br>
+                            Delivery
+                        </p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolar sit amet conector adpisiting edits.
+                        Valit, Facers debits omiydeyd    
+                    </P>
+                </div>
+               </div>
+           </div>
+
+         
+         <!--~~~~~~~~~~~~~~~ About us ~~~~~~~~~~~~~~~-->
+        <section id="about" class="relative overflow-hidden">
+            <div class="flex flex-col items-center gap-3 mb-10 text-center md:mb-20 ">
+                <h2 class="title">About Us</h2>
+                <p class="max-w-2xl">Follow instruction for more</p>
+            </div>
+
+            
+        </section>
+         <!--~~~~~~~~~~~~~~~ Popular ~~~~~~~~~~~~~~~-->
+         <section id="Popular">
+            <div class="flex flex-col items-center text-center">
+               <h2 class="text-3xl font-bold">About Us</h2>
+               <p class="mt-4">Follow the instructions for more</p>
+            </div>
+         
+            <div class="container space-y-10 xl:space-y-0">
+               <!--Item 1-->
+               <div class="flex flex-col items-center gap-5 lg:flex-row">
+                  <!--Image-->
+                  <div>
+                     <img src="assets/img/plant-1.png" alt="about_image" />
+                  </div>
+         
+                  <!-- Content -->
+                  <div>
+                     <div>
+                        <h3>
+                           Make your <span class="text-yellow-500">organic garden</span><br> garden
+                        </h3>
+                        <p>
+                           Lorem ipsum hello how are you doing over nightr rating bahs hjszvb zjas jabzzj saz aszbzbz zzjzbaz z z asjzz zjasbhzas zas zasz as zasjzb asjb zasz sa zsabzsajzhb sajzhsa zsazb sazbsazas z saz aszb sazhas zsa z aszszasv z
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         
+        <!--~~~~~~~~~~~~~~~ Review ~~~~~~~~~~~~~~~-->
+        <section id="review">
+
+            
+        </section>
+    </main>
+
+    <footer>
+         <!-- newsletter -->
+        
+        <!-- social icon -->
+
+        <!-- content -->
+
+        <!-- copyright -->
+
+        <!-- floral image -->
+    </footer>
+
+     <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~ mainjs ~~~~~~~~~~-->
+
+    <script src="main.js"></script>
+</body>
+</html>
